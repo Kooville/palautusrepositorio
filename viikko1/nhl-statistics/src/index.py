@@ -1,4 +1,4 @@
-from statistics_service import StatisticsService
+from statistics_service import StatisticsService, SortBy
 from player_reader import PlayerReader
 
 
