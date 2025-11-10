@@ -6,13 +6,13 @@ class Printer:
         self.players = players
         self.season = season
         self.nationality = nationality
-    
+
     def print_players(self):
         table = Table(title=f"Season {self.season} players from {self.nationality}")
 
         table.add_column("Name", justify="left", style="cyan", no_wrap=True)
         table.add_column("Teams", style="magenta")
-        table.add_column("Goals", justify="right", style="green")   
+        table.add_column("Goals", justify="right", style="green")
         table.add_column("Assists", justify="right", style="green")
         table.add_column("Points", justify="right", style="green")
 
@@ -26,7 +26,4 @@ class Printer:
             )
 
         console = Console()
-        console.print(table)   
-
-
-
+        console.print(table)
