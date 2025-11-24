@@ -31,4 +31,3 @@ class Kauppa:
 #muutos
 #muutos2
 #muutos3
-#muutos4
