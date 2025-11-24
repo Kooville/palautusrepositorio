@@ -29,3 +29,4 @@ class Kauppa:
         return self._pankki.tilisiirto(nimi, viite, tili_numero, self._kaupan_tili, summa)
 
 #muutos
+#muutos2
