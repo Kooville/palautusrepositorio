@@ -39,13 +39,13 @@ class TennisGame:
     def _get_deuce_or_advantage_score(self):
         score_diff = self.m_score1 - self.m_score2
         if score_diff == 1:
-            return "Advantage player1"
+            return f"Advantage {self.player1_name}"
         elif score_diff == -1:
-            return "Advantage player2"
+            return f"Advantage {self.player2_name}"
         elif score_diff >= 2:
-            return "Win for player1"
+            return f"Win for {self.player1_name}"
         else:
-            return "Win for player2"
+            return f"Win for {self.player2_name}"
 
     def _get_regular_score(self):
         return f"{self._score_name(self.m_score1)}-{self._score_name(self.m_score2)}"
