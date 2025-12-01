@@ -1,0 +1,1 @@
+Copilot tuotti toimivan ja selkeän web interfacen sovellukselle. Koodi on selkeää ja helposti ymmärrettävää docstringien vuoksi. Copilot kuitenkin teki ilmeisesti kokonaan uuden warehouse luokan sen sijaan että olisi käyttänyt valmista varasto.pyssä olevaa sovellusta. Opin kuinka hyödyllisiä docstringit voivat olla kun katselee täysin uutta koodia.
